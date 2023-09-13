@@ -287,7 +287,15 @@
 
   - ### Basic Setup Before Running/Interpreting the Codes
 
-    - Coming Soon
+    - ### `For Windows:`
+
+      - [Install dotnet 6 on windows 10/11 | Install .Net core 6](https://youtu.be/rASHrGzRxM8?feature=shared)
+      - [SQL Server Tutorial For Beginners 2022](https://www.youtube.com/playlist?list=PL82C6-O4XrHfZoh2ZH7-HCPyh9oHeYPnz)
+
+    - ### `For Linux:`
+
+      - [Install .Net 6 Ubuntu | Asp.Net Core 6.0 Runtime Install | Dotnet 6 use on Linux Terminal](https://youtu.be/rASHrGzRxM8?feature=shared)
+      - [Installing SQL Server on Linux](https://www.youtube.com/watch?v=GBboALYvvuE)
 
     ---
   - ### How the Sign Up and Login Works:
