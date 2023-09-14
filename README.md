@@ -12,6 +12,8 @@
   - This is  the API Implemented using `.NET 6`.
   - The PHP API is in a separate Repository: [RESTful_API_Implementation_In_PHP](https://github.com/TebogoYungMercykay/RESTful_API_Implementation_In_PHP.git)
 
+  ---
+
 ---
 
 - ## SECTION 2
@@ -32,6 +34,8 @@
     - `Email`: johndoe3@gmail.com
     - `Password`: tEst@us5e#hd
     - `API_key`: K9yW8cGnE3qTfR7xV2sZ6bN1mJ4jL5p
+
+    ---
 
 ---
 
@@ -281,6 +285,8 @@
         }
         ```
 
+      ---
+
 ---
 
 - ## SECTION 4
@@ -324,7 +330,7 @@
     - It Contains these `AlphaNumeric` Characters: `0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
     - The Key is then Displayed to the User using a `<p>` tag in every file right after the Heading.
 
-  ---
+    ---
 
 ---
 
@@ -356,7 +362,7 @@
 
     - SQL Server Sample Database: [sql-server-sample-database](https://www.sqlservertutorial.net/sql-server-sample-database/)
 
----
+    ---
 
 ---
 
