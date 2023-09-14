@@ -285,20 +285,8 @@
 
 - ## SECTION 4
 
-  - ### Basic Setup Before Running/Interpreting the Codes
-
-    - ### `For Windows:`
-
-      - [Install dotnet 6 on windows 10/11 | Install .Net core 6](https://youtu.be/rASHrGzRxM8?feature=shared)
-      - [SQL Server Tutorial For Beginners 2022](https://www.youtube.com/playlist?list=PL82C6-O4XrHfZoh2ZH7-HCPyh9oHeYPnz)
-
-    - ### `For Linux:`
-
-      - [Install .Net 6 Ubuntu | Asp.Net Core 6.0 Runtime Install | Dotnet 6 use on Linux Terminal](https://youtu.be/rASHrGzRxM8?feature=shared)
-      - [Installing SQL Server on Linux](https://www.youtube.com/watch?v=GBboALYvvuE)
-
-    ---
   - ### How the Sign Up and Login Works:
+
 
     - A User must have an account to view the Cars for practical 3, and all the other page.
     - If a `user` doesn't have an account they can only access the `signup`, `login` and `launch` pages.
@@ -321,17 +309,52 @@
     ---
   - ### How My Encryption Algorithm Works
 
+
     - Generate a `RANDOM` int, SALT value between `[2000000000, 2147483646]`.
     - Encrypt PASSWORD using the random number as the `salt` with `sha256` and `hash_pbkdf2` method, `hash_pbkdf2("sha256", p, s, i, b)`;
     - Using 1000 iterations for the hash_pbkdf2 method, and a HASH length of 32 BYTES, So that it can fit well into a column of this `size` => `VARCHAR(128)`.
     - Finally i `Concatenate` the `SALT` and `HASH` and the encode the resulting string to base 64, using `base64_encode()`.
 
     ---
+
   - ### API Key
+
 
     - The API key is a random string of `length=32`.
     - It Contains these `AlphaNumeric` Characters: `0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
     - The Key is then Displayed to the User using a `<p>` tag in every file right after the Heading.
+
+  ---
+
+---
+
+- ## SECTION 5
+
+  - ### Basic Setup Before Running/Interpreting the Codes
+
+
+    - ### `For Windows:`
+
+      - [Install dotnet 6 on windows 10/11 | Install .Net core 6](https://youtu.be/rASHrGzRxM8?feature=shared)
+      - [SQL Server Tutorial For Beginners 2022](https://www.youtube.com/playlist?list=PL82C6-O4XrHfZoh2ZH7-HCPyh9oHeYPnz)
+    - ### `For Linux:`
+
+      - [Install .Net 6 Ubuntu | Asp.Net Core 6.0 Runtime Install | Dotnet 6 use on Linux Terminal](https://youtu.be/rASHrGzRxM8?feature=shared)
+      - [Installing SQL Server on Linux](https://www.youtube.com/watch?v=GBboALYvvuE)
+
+    ---
+
+    - Random Example for DROPping a Database:
+      ```sql
+      ALTER DATABASE hack_api_test
+      SET SINGLE_USER --or RESTRICTED_USER
+      WITH ROLLBACK IMMEDIATE;
+      GO
+      DROP DATABASE hack_api_test;
+      GO
+      ```
+
+    - SQL Server Sample Database: [sql-server-sample-database](https://www.sqlservertutorial.net/sql-server-sample-database/)
 
 ---
 
