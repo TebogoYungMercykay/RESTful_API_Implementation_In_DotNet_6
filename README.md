@@ -44,7 +44,7 @@
   - All Requests to the `Database` should be Sent via `POST` method for security Purposes.
   - All `API` Request/Response bodies are in the Form of a `JSON` object.
   - The JSON Object Must contain the `type` attribute and some more data, this is so that the requests can be `distinguishable` and `handled` accordingly.
-  - The `Database` in Question is a `MySQL` Database, Tool: `phpMyAdmin`.
+  - The `Database` in Question is a `SQLMicrosoft SQL Server` Database, Tool: `SSMS`.
   - The the `API_keys` on the `database` for sending `requests` to the API are included in `SECTION 1`.
   - #### `Note Well:`
 
